@@ -5,7 +5,7 @@ on:
 
 env:
   # (required) twrp manifest 
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   # (required) manifest branch 
   BRANCH: twrp-12.1
   # (required) device codename i.e: sweet mojito.. 
@@ -13,7 +13,7 @@ env:
   # (required) device tree link with branch if exists
   DT_LINK: https://github.com/NeonzDump/twrp_infinix_X688B
   # (required) who made your phone ? 
-  MANUFACTURER: Infinix
+  MANUFACTURER: infinix
   # (required) recovery partiton = recovery, else (no recovery partition): boot 
   TARGET: recovery
   # dont change that
